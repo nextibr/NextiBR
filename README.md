@@ -110,4 +110,4 @@ Ao subir o site, faça o primeiro envio de teste através do formulário de cont
 
 ## 📄 Licença
 
-Este projeto é de propriedade exclusiva e confidencial da **NextBR**. Todos os direitos reservados.
+Este projeto é de propriedade exclusiva e confidencial da **NextiBR**. Todos os direitos reservados.
