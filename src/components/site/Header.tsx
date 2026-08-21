@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/nextbr-lockup.png";
+import logo from "@/assets/nextibr-lockup.png";
 
 const links = [
   { href: "#inicio", label: "Início" },
@@ -30,8 +30,8 @@ export function Header() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
-        <a href="#inicio" className="flex items-center" aria-label="NextBR — Inovação e Tecnologia">
-          <img src={logo} alt="Logo NextBR" className="h-12 w-auto sm:h-14" />
+        <a href="#inicio" className="flex items-center" aria-label="NextiBR — Inovação e Tecnologia">
+          <img src={logo} alt="Logo NextiBR" className="h-12 w-auto sm:h-14" />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

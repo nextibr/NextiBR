@@ -78,14 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "NextBR — Inovação e Tecnologia" },
+      { title: "NextiBR — Inovação e Tecnologia" },
       {
         name: "description",
         content:
           "Startup de tecnologia do Piauí, selecionada no Programa Centelha PI com o projeto AURA.",
       },
-      { name: "author", content: "NextBR" },
-      { property: "og:title", content: "NextBR — Inovação e Tecnologia" },
+      { name: "author", content: "NextiBR" },
+      { property: "og:title", content: "NextiBR — Inovação e Tecnologia" },
       {
         property: "og:description",
         content:

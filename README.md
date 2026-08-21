@@ -1,12 +1,12 @@
-# NextBR — Portal Institucional & Projeto AURA
+# NextiBR — Portal Institucional & Projeto AURA
 
 <p align="center">
-  <img src="src/assets/nextbr-lockup.png" alt="NextBR Logo" width="280" />
+  <img src="src/assets/nextibr-lockup.png" alt="NextiBR Logo" width="280" />
 </p>
 
 ---
 
-O **Portal Institucional da NextBR** é a vitrine da nossa startup de tecnologia, selecionada no **Programa Centelha PI** (programa de aceleração e estímulo à inovação do Piauí). O site apresenta nossa proposta de valor e destaca o **AURA (Affective Understanding & Response Analysis)**, nossa plataforma de inteligência artificial voltada para classificação e análise emocional de textos em português brasileiro.
+O **Portal Institucional da NextiBR** é a vitrine da nossa startup de tecnologia, selecionada no **Programa Centelha PI** (programa de aceleração e estímulo à inovação do Piauí). O site apresenta nossa proposta de valor e destaca o **AURA (Affective Understanding & Response Analysis)**, nossa plataforma de inteligência artificial voltada para classificação e análise emocional de textos em português brasileiro.
 
 O projeto conta também com uma área administrativa restrita (`/admin`) que atua como um mini CMS para gerenciar notícias do carrossel institucional e textos de apoio do portal.
 

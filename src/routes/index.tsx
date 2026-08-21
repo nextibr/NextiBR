@@ -12,13 +12,13 @@ import centelhaLogo from "@/assets/centelha-logo.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NextBR — Inovação e Tecnologia | Projeto AURA" },
+      { title: "NextiBR — Inovação e Tecnologia | Projeto AURA" },
       {
         name: "description",
         content:
-          "NextBR é uma startup de tecnologia do Piauí, selecionada no Programa Centelha PI com o AURA, plataforma de IA para análise de emoções em textos em português.",
+          "NextiBR é uma startup de tecnologia do Piauí, selecionada no Programa Centelha PI com o AURA, plataforma de IA para análise de emoções em textos em português.",
       },
-      { property: "og:title", content: "NextBR — Inovação e Tecnologia | Projeto AURA" },
+      { property: "og:title", content: "NextiBR — Inovação e Tecnologia | Projeto AURA" },
       {
         property: "og:description",
         content:
@@ -82,7 +82,7 @@ function Index() {
 
             <ScrollReveal delayMs={350}>
               <p className="mt-6 max-w-xl text-lg text-muted-foreground">
-                A NextBR é uma startup de tecnologia do Piauí que desenvolve o AURA, plataforma de
+                A NextiBR é uma startup de tecnologia do Piauí que desenvolve o AURA, plataforma de
                 compreensão e análise afetiva de textos — transformando linguagem em insights que
                 aproximam pessoas e organizações.
               </p>
@@ -144,7 +144,7 @@ function Index() {
                 Selecionada no Programa Centelha PI
               </h2>
               <p className="mt-2 text-sm text-muted-foreground sm:text-base">
-                A NextBR foi aprovada no Centelha PI, programa de estímulo à criação e aceleração de
+                A NextiBR foi aprovada no Centelha PI, programa de estímulo à criação e aceleração de
                 startups inovadoras no Piauí, com o projeto AURA.
               </p>
             </div>
@@ -201,7 +201,7 @@ function Index() {
                   AURA — Affective Understanding &amp; Response Analysis
                 </h2>
                 <p className="mt-4 text-muted-foreground">
-                  O AURA é a plataforma de inteligência artificial da NextBR para compreensão e análise
+                  O AURA é a plataforma de inteligência artificial da NextiBR para compreensão e análise
                   de emoções em textos em português. A partir de mensagens, avaliações e conversas, o
                   AURA identifica sentimentos, intensidade e nuances afetivas, entregando leituras
                   claras sobre como as pessoas realmente se sentem.

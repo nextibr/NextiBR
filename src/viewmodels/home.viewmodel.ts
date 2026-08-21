@@ -16,8 +16,8 @@ export function useHomeViewModel() {
   return {
     news,
     loadingNews,
-    aboutTitle: content?.["about_title"] ?? "Sobre a NextBR",
-    aboutText: content?.["about_text"] ?? "A NextBR é uma startup de tecnologia nascida no Piauí, dedicada a criar soluções de inteligência artificial que aproximam pessoas e máquinas.",
+    aboutTitle: content?.["about_title"] ?? "Sobre a NextiBR",
+    aboutText: content?.["about_text"] ?? "A NextiBR é uma startup de tecnologia nascida no Piauí, dedicada a criar soluções de inteligência artificial que aproximam pessoas e máquinas.",
     loadingContent,
   };
 }
