@@ -68,11 +68,11 @@ CREATE POLICY "Anyone can send a message" ON public.contact_messages FOR INSERT 
 CREATE POLICY "Admins can read messages" ON public.contact_messages FOR SELECT TO authenticated USING (public.has_role(auth.uid(),'admin'));
 
 INSERT INTO public.site_content (key, value) VALUES
- ('about_title','Sobre a NextBR'),
- ('about_text','A NextBR é uma startup de tecnologia nascida no Piauí, dedicada a criar soluções de inteligência artificial que aproximam pessoas e máquinas. Nossa missão é transformar dados em compreensão: desenvolvemos tecnologias capazes de interpretar a linguagem e as emoções humanas em português, gerando impacto real para empresas, instituições e para a sociedade.');
+ ('about_title','Sobre a NextiBR'),
+ ('about_text','A NextiBR é uma startup de tecnologia nascida no Piauí, dedicada a criar soluções de inteligência artificial que aproximam pessoas e máquinas. Nossa missão é transformar dados em compreensão: desenvolvemos tecnologias capazes de interpretar a linguagem e as emoções humanas em português, gerando impacto real para empresas, instituições e para a sociedade.');
 
 INSERT INTO public.news (title, summary, image_url, published_at) VALUES
- ('NextBR é selecionada no Programa Centelha PI','A startup foi aprovada com o projeto AURA, plataforma de IA para análise emocional de textos em português.','https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80','2026-05-12'),
+ ('NextiBR é selecionada no Programa Centelha PI','A startup foi aprovada com o projeto AURA, plataforma de IA para análise emocional de textos em português.','https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80','2026-05-12'),
  ('AURA entra em fase de testes com parceiros','Primeiros pilotos avaliam a precisão do modelo de compreensão afetiva em atendimentos reais.','https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80','2026-06-03'),
- ('NextBR participa de imersão de inovação em Teresina','Equipe apresentou o AURA para mentores e investidores do ecossistema piauiense.','https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80','2026-06-28'),
+ ('NextiBR participa de imersão de inovação em Teresina','Equipe apresentou o AURA para mentores e investidores do ecossistema piauiense.','https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80','2026-06-28'),
  ('Novo modelo de linguagem melhora a acurácia do AURA','Atualização amplia a detecção de nuances emocionais em textos curtos e informais.','https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80','2026-07-20');

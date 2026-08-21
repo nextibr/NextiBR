@@ -5,16 +5,16 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { useAdminViewModel } from "@/viewmodels/admin.viewmodel";
-import logo from "@/assets/nextbr-lockup.png";
+import logo from "@/assets/nextibr-lockup.png";
 
 export const Route = createFileRoute("/_authenticated/admin")({
   head: () => ({
     meta: [
-      { title: "Painel administrativo — NextBR" },
-      { name: "description", content: "Gerencie as notícias e os textos institucionais da NextBR." },
+      { title: "Painel administrativo — NextiBR" },
+      { name: "description", content: "Gerencie as notícias e os textos institucionais da NextiBR." },
       { name: "robots", content: "noindex" },
-      { property: "og:title", content: "Painel administrativo — NextBR" },
-      { property: "og:description", content: "Gerencie as notícias e os textos institucionais da NextBR." },
+      { property: "og:title", content: "Painel administrativo — NextiBR" },
+      { property: "og:description", content: "Gerencie as notícias e os textos institucionais da NextiBR." },
     ],
   }),
   component: AdminPage,
@@ -53,7 +53,7 @@ function AdminPage() {
     <div className="min-h-screen bg-secondary/40">
       <header className="sticky top-0 z-40 border-b border-border bg-background/90 backdrop-blur">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
-          <img src={logo} alt="Logo NextBR" className="h-9 w-auto" />
+          <img src={logo} alt="Logo NextiBR" className="h-9 w-auto" />
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="sm" asChild>
               <a href="/">Ver site</a>

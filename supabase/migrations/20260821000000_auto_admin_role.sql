@@ -2,7 +2,7 @@
 CREATE OR REPLACE FUNCTION public.handle_new_user()
 RETURNS trigger AS $$
 BEGIN
-  -- Grant admin role ONLY to the official nextbr email
+  -- Grant admin role ONLY to the official nextibr email
   IF new.email = 'nextibr.tech@gmail.com' THEN
     INSERT INTO public.user_roles (user_id, role)
     VALUES (new.id, 'admin'::public.app_role)

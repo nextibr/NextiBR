@@ -37,7 +37,7 @@ export function NewsCarousel() {
         <ScrollReveal>
           <div className="mb-10 max-w-2xl">
             <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-green">Notícias</span>
-            <h2 className="mt-3 text-3xl font-bold text-navy sm:text-4xl">Acompanhe a NextBR</h2>
+            <h2 className="mt-3 text-3xl font-bold text-navy sm:text-4xl">Acompanhe a NextiBR</h2>
             <p className="mt-3 text-muted-foreground">
               Novidades sobre o AURA, o Programa Centelha PI e o ecossistema de inovação do Piauí.
             </p>

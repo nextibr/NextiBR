@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useContactViewModel } from "@/viewmodels/contact.viewmodel";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
-import logo from "@/assets/nextbr-lockup.png";
+import logo from "@/assets/nextibr-lockup.png";
 
 export function ContactFooter() {
   const { form, sending, handleFieldChange, handleSubmit } = useContactViewModel();
@@ -19,7 +19,7 @@ export function ContactFooter() {
               <span className="text-xs font-bold uppercase tracking-[0.2em] text-brand-yellow">Contato</span>
               <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Vamos conversar</h2>
               <p className="mt-3 max-w-md text-background/70">
-                Quer conhecer o AURA, propor uma parceria ou saber mais sobre a NextBR? Envie sua
+                Quer conhecer o AURA, propor uma parceria ou saber mais sobre a NextiBR? Envie sua
                 mensagem — respondemos rápido.
               </p>
 
@@ -39,14 +39,14 @@ export function ContactFooter() {
               <div className="mt-8 flex gap-3">
                 <a
                   href="#"
-                  aria-label="Instagram da NextBR"
+                  aria-label="Instagram da NextiBR"
                   className="rounded-full border border-background/20 p-3 transition-colors hover:border-brand-yellow hover:text-brand-yellow"
                 >
                   <Instagram className="size-5" />
                 </a>
                 <a
                   href="#"
-                  aria-label="LinkedIn da NextBR"
+                  aria-label="LinkedIn da NextiBR"
                   className="rounded-full border border-background/20 p-3 transition-colors hover:border-brand-yellow hover:text-brand-yellow"
                 >
                   <Linkedin className="size-5" />
@@ -102,9 +102,9 @@ export function ContactFooter() {
         </div>
 
         <div className="mt-16 flex flex-col items-center gap-4 border-t border-background/15 pt-8 sm:flex-row sm:justify-between">
-          <img src={logo} alt="Logo NextBR" className="h-9 w-auto brightness-0 invert" />
+          <img src={logo} alt="Logo NextiBR" className="h-9 w-auto brightness-0 invert" />
           <p className="text-xs text-background/60">
-            © {new Date().getFullYear()} NextBR — Inovação e Tecnologia. Todos os direitos reservados.
+            © {new Date().getFullYear()} NextiBR — Inovação e Tecnologia. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -45,7 +45,7 @@ serve(async (req) => {
         Authorization: `Bearer ${RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: "NextBR Landing Page <onboarding@resend.dev>",
+        from: "NextiBR Landing Page <onboarding@resend.dev>",
         to: "nextibr.tech@gmail.com",
         subject: `Novo Contato do Site — ${name}`,
         html: `
@@ -58,7 +58,7 @@ serve(async (req) => {
               ${message}
             </div>
             <hr style="margin-top: 30px; border: none; border-top: 1px solid #eee;" />
-            <p style="font-size: 11px; color: #888; text-align: center;">Este e-mail foi gerado automaticamente pela plataforma da NextBR.</p>
+            <p style="font-size: 11px; color: #888; text-align: center;">Este e-mail foi gerado automaticamente pela plataforma da NextiBR.</p>
           </div>
         `,
       }),
