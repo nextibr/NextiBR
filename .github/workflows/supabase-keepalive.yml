@@ -1,0 +1,28 @@
+name: Supabase Keep Alive
+
+on:
+  schedule:
+    # Executa a cada 3 dias às 00:00 UTC
+    - cron: '0 0 */3 * *'
+  workflow_dispatch: # Permite rodar manualmente pela aba Actions do GitHub
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase (Inserir novo registro)
+        run: |
+          echo "Enviando ping para o Supabase..."
+          curl -i -X POST "${{ secrets.SUPABASE_URL }}/rest/v1/keep_alive" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"status": "github_ping"}'
+
+      - name: Limpar pings antigos (mais de 3 dias)
+        run: |
+          THREE_DAYS_AGO=$(date -u -d '3 days ago' +'%Y-%m-%dT%H:%M:%SZ')
+          echo "Removendo registros anteriores a $THREE_DAYS_AGO..."
+          curl -i -X DELETE "${{ secrets.SUPABASE_URL }}/rest/v1/keep_alive?created_at=lt.${THREE_DAYS_AGO}" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
